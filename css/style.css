@@ -1,0 +1,119 @@
+
+
+*{
+
+font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.menu > li {
+
+	display:inline-block;
+	padding:10px;
+
+}
+ .nav-link {
+	text-decoration:none;
+	font-family:arial;
+	font-size:20px;
+	color:white;
+}
+
+.nav-link_about{
+
+text-decoration:none;
+	font-family:arial;
+	font-size:20px;
+	color:black;
+}
+.nav-link_about:hover{
+	color:black;
+}
+
+.nav-link:hover{
+	border-bottom:1px solid white;
+	color:white;
+}
+
+.shop_all_link{
+	text-decoration:none;
+	font-family:arial;
+	font-size:20px;
+	color:black;
+}
+.shop_all_link:hover{
+	border-bottom:1px solid black;
+	color:black;
+}
+
+
+.cart{
+
+	float:right!important;
+}
+
+
+.shop_now{
+
+	border:none;
+	padding:10px;
+	width:150px;
+	height:50px;
+	background:white;
+	border:1px solid black;
+}
+.shop_now:hover{
+    color:white;
+    cursor:pointer;
+    background-color:black;
+}
+
+.sub{
+
+	border:none;
+	padding:10px;
+	width:150px;
+	height:50px;
+	color:white;
+	background:black;
+	border:1px solid white;	
+}
+.sub:hover{
+    color:black;
+    cursor:pointer;
+    background-color:white;
+}
+/* query */
+
+@media screen and (min-width: 320px){
+    /* styles */
+
+    .nav{
+    	background-color:black;
+    }
+}
+
+.sub_input{
+	border:none;
+	padding:10px;
+	background-color:black;
+	color:white;
+	border:1px solid white;
+}
+.sub_input:hover{
+	background-color:white;
+	color:black;
+}
+
+.created{
+	color:white;
+}
+
+.created:hover{
+	color:white;
+}
+
+.create:active{
+	color:red;
+}
